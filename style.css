@@ -86,12 +86,8 @@ p {
   background-color: #fff;
 }
 
-/* ---- section ---- */
-
-section.testimonials {
-  // ...
-}
-
-section.testimonials .button {
-  margin-bottom: 10px;
+.game-container {
+  height: 90vh;
+  width: 100%;
+  border: 1px solid black;
 }
