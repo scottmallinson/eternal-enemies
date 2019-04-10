@@ -38,6 +38,7 @@ function main() {
 
     const game = new Game(canvasElement);
     game.startLoop();
+    game.setGameOverCallback(buildGameOverScreen);
 
     document.addEventListener('keydown', function(event){
       if (event.keyCode === 38){
